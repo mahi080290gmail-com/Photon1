@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="fireffox"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.dattu.Project.Automations.Tc001">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="aftermethod"/>
+          <include name="beforeMethod"/>
+          <include name="test3"/>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.dattu.Project.Automations.Tc001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
